@@ -1,20 +1,20 @@
     <!-- start page-footer -->
-    <footer class="page-footer">
-         <div class="page-container">
-             <div class="row">
-                 <div class="col-12 offset-top-1">
-                     <div class="row">
-                         <div class="col-sm-6">
-                             <p class="copyright">(&copy;)Copyright</p>
-                         </div>
-                         <div class="col-sm-6">
-                             <p class="developer">РАЗРАБОТКА LANDING PAGE <a rel="nofollow" target="_blank" href="//fabrika-klientov.ua/" title="ФАБРИКА КЛИЕНТОВ">ФАБРИКА КЛИЕНТОВ</a></p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-    </footer>
+<!--    <footer class="page-footer">-->
+<!--         <div class="page-container">-->
+<!--             <div class="row">-->
+<!--                 <div class="col-12 offset-top-1">-->
+<!--                     <div class="row">-->
+<!--                         <div class="col-sm-6">-->
+<!--                             <p class="copyright">(&copy;)Copyright</p>-->
+<!--                         </div>-->
+<!--                         <div class="col-sm-6">-->
+<!--                             <p class="developer">РАЗРАБОТКА LANDING PAGE <a rel="nofollow" target="_blank" href="//fabrika-klientov.ua/" title="ФАБРИКА КЛИЕНТОВ">ФАБРИКА КЛИЕНТОВ</a></p>-->
+<!--                         </div>-->
+<!--                     </div>-->
+<!--                 </div>-->
+<!--             </div>-->
+<!--         </div>-->
+<!--    </footer>-->
     <!-- end page-footer -->
     <!-- start top-scroll -->
     <a href="#top-page" class="top-scroll" title="Вверх">
