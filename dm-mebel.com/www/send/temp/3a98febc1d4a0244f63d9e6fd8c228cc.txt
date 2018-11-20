@@ -1,0 +1,7 @@
+php /var/www/www-root/data/www/np-fabrika.f-k.in.ua/epochta/cron.php
+php /var/www/www-root/data/www/webhooks.f-k.in.ua/developerz-test/amosms_cron/cron.php
+*/5
+*
+*
+*
+*

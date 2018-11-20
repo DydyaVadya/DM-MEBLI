@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Prices\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-26 10:55+0000\n"
+"PO-Revision-Date: 2018-01-26 11:01+0000\n"
+"Last-Translator: fk <dev@f-k.in.ua>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: woocommerce-prices.php:180 woocommerce-prices.php:206
+#: woocommerce-prices.php:298
+msgid "Security check failed"
+msgstr "Ошибка проверки безопасности"
+
+#: woocommerce-prices.php:202 woocommerce-prices.php:294
+msgid "WooCommerce Prices requires WooCommerce"
+msgstr "Слайдер цен требует плагин woocommerce"
+
+#. Name of the plugin
+#: template.php:15
+msgid "WooCommerce Prices"
+msgstr ""
+
+#: template.php:29
+msgid "Action"
+msgstr "Действие"
+
+#: template.php:31
+msgid "Regular Price"
+msgstr "обычная цена"
+
+#: template.php:32
+msgid "New Regular Price"
+msgstr "Новая Обычная Цена"
+
+#: template.php:33
+msgid "Increase Regular Price"
+msgstr "Увеличение Обычной Цены"
+
+#: template.php:34
+msgid "Decrease Regular Price"
+msgstr "Снижение Обычной Цены"
+
+#: template.php:36
+msgid "Sale Price"
+msgstr "цена продажи"
+
+#: template.php:37
+msgid "New Sale Price"
+msgstr "Новая Цена Продажи"
+
+#: template.php:38
+msgid "New Sale Discount"
+msgstr "Новая Скидка Продажи"
+
+#: template.php:39
+msgid "Increase Sale Price"
+msgstr "Увеличить Цену Продажи"
+
+#: template.php:40
+msgid "Decrease Sale Price"
+msgstr "Снижение Продажной Цены"
+
+#: template.php:42 template.php:63
+msgid "Sale From"
+msgstr "Продажа От"
+
+#: template.php:43
+msgid "New Sale From"
+msgstr "Новая Продажа От"
+
+#: template.php:44
+msgid "Increase Sale From"
+msgstr "Увеличение Продажи От"
+
+#: template.php:45
+msgid "Decrease Sale From"
+msgstr "Уменьшить Продажу От"
+
+#: template.php:47 template.php:67
+msgid "Sale To"
+msgstr "Продажи"
+
+#: template.php:48
+msgid "New Sale To"
+msgstr "Новая Продажа"
+
+#: template.php:49
+msgid "Increase Sale To"
+msgstr "Увеличить Продажи"
+
+#: template.php:50
+msgid "Decrease Sale To"
+msgstr "Уменьшить Продажу До"
+
+#: template.php:55
+msgid "Value"
+msgstr "Значение"
+
+#: template.php:56
+msgid "Enter amount or percentage"
+msgstr "Введите сумму или процент"
+
+#: template.php:59
+msgid "Days"
+msgstr "Дни"
+
+#: template.php:60
+msgid "Enter number of days"
+msgstr "Введите количество дней"
+
+#: template.php:74
+msgid "Category"
+msgstr "Категория"
+
+#: template.php:87
+msgid "OR"
+msgstr "ИЛИ"
+
+#: template.php:89
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: template.php:95
+msgid "Term"
+msgstr "Срок"
+
+#: template.php:103
+msgid "Edit Prices"
+msgstr "Изменение Цены"
+
+#: template.php:104
+msgid "Get Prices"
+msgstr "Получить Цены"
+
+#: template.php:105
+msgid "Save Prices"
+msgstr "Сохранить Цены"
+
+#: template.php:106
+msgid "Saving products"
+msgstr "Сберегательный продукт"
+
+#: template.php:107
+msgid "Products saved"
+msgstr "Сохраненные продукты"
+
+#: template.php:113
+msgid "Loading Products"
+msgstr "Загрузка Продуктов"
+
+#. Description of the plugin
+msgid ""
+"This plugin allows for custom editing of product prices in WooCommerce. "
+"Thanks to Anthony for sponsoring this plugin."
+msgstr ""
+"Этот плагин позволяет для пользовательского редактирования цен на продукты в "
+"WooCommerce. Спасибо Энтони за спонсирование этого плагина."
+
+#. Author of the plugin
+msgid "sydcode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://profiles.wordpress.org/sydcode"
+msgstr ""

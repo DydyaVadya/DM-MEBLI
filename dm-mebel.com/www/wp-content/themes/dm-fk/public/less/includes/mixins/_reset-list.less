@@ -1,0 +1,24 @@
+.reset-list {
+  margin: 0;
+  counter-reset: none;
+  & > li {
+    margin: 0;
+    display: block;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    &:before {
+      content: none;
+      counter-increment: none;
+      color: @color-1;
+      font-weight: normal;
+      right: auto;
+      margin: 0;
+      max-width: none;
+      width: auto;
+      height: auto;
+      background: none;
+      .border-radius(0);
+    }
+  }
+}
