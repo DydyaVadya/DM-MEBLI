@@ -90,7 +90,7 @@
 
                                     <?php $i++; ?> 
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
 
                                         <div class="card" data-toggle="modal" data-target="#detail-modal-<?= $post->ID ?>">
 
