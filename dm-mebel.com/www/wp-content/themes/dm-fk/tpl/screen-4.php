@@ -38,8 +38,12 @@
 <?php $description_3     = get_field('подзаголовок_3_б4',    $homepage); ?>
 
 <?php #Блок4 ?>
+
 <?php $title_4           = get_field('заголовок_4_б4',       $homepage); ?>
 <?php $description_4     = get_field('подзаголовок_4_б4',    $homepage); ?>
+
+
+
 
 <?php #Блок5 ?>
 <?php $title_5          = get_field('заголовок_5_б4',       $homepage); ?>
@@ -112,6 +116,9 @@
                     </div>
                 <?php endif; ?>
             </div>
+
+            <h2 class="heading"> <span>Дмитрий </span> <strong>Середа</strong> <br> Основатель компании <br>
+                DM МЕБЕЛЬ</h2>
 
             <div class="blockquote-section">
                 <div class="blockquote-container">
