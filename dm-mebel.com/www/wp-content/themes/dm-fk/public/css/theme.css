@@ -1406,7 +1406,7 @@ input[type=radio]:checked + label::after {
 }
 @media screen and (min-width: 992px) {
   .page {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
   }
 }
 .page-container {
@@ -1473,8 +1473,8 @@ input[type=radio]:checked + label::after {
 }
 @media screen and (min-width: 992px) {
   .header-meta {
-    padding-top: 20.5px;
-    padding-bottom: 20.5px;
+    /*padding-top: 20.5px;*/
+    /*padding-bottom: 20.5px;*/
   }
 }
 .logotype {
