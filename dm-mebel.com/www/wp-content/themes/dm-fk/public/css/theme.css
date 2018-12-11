@@ -1465,11 +1465,13 @@ input[type=radio]:checked + label::after {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
 @media screen and (min-width: 768px) {
   .header-meta {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
 }
 @media screen and (min-width: 992px) {
   .header-meta {
@@ -1483,8 +1485,12 @@ input[type=radio]:checked + label::after {
   max-width: 120px;
   margin: 0 auto 0 0;
 }
-.tab-content-id{
-  max-height: 1300px;
+/*.tab-content-id{*/
+  /*max-height: 1400px;*/
+  /*overflow: hidden;*/
+/*}*/
+.tab-content-id {
+  max-height: 1280px;
   overflow: hidden;
 }
 .onClickProduct{
@@ -1533,6 +1539,13 @@ input[type=radio]:checked + label::after {
   width: 144px;
 }
 @media screen and (min-width: 992px) {
+
+  .tab-content-id{
+  max-height: 1400px;
+  overflow: hidden;
+  }
+
+
   .logotype {
     -ms-flex: 0 0 139px;
     flex: 0 0 139px;
@@ -2158,12 +2171,31 @@ input[type=radio]:checked + label::after {
   color: #f9f9f9;
   font-family: 'SFUIDisplay-Black', sans-serif;
 }
+@media screen and (max-width: 380px) {
+
+
+  .tab-content-id{
+    max-height: 1330px;
+    overflow: hidden;
+  }
+}
+@media screen (min-width: 430px) and (max-width: 500px) {
+
+
+  .tab-content-id{
+    max-height: 1400px;
+    overflow: hidden;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .heading-count {
     left: -15px;
     font-size: 220px;
   }
 }
+
+
 @media screen and (min-width: 1230px) {
   .heading-count {
     left: -122px;
@@ -2184,10 +2216,23 @@ input[type=radio]:checked + label::after {
   border-radius: 0;
   margin: 0 0 50px;
 }
+
+
+
+
+@media screen and (min-width: 2560px) {
+
+
+.tab-content-id{
+  max-height: 1450px;
+  overflow: hidden;
+}
+}
+
 @media screen and (min-width: 768px) {
   .card {
     /*margin-bottom: 135px;*/
-    margin-bottom: 248px;
+    margin-bottom: 60px;
   }
 }
 .card-name {
@@ -2322,7 +2367,7 @@ input[type=radio]:checked + label::after {
 }
 @media screen and (min-width: 768px) {
   .card-price {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 0;
   }
 }
@@ -3123,7 +3168,9 @@ input[type=radio]:checked + label::after {
     padding-right: 30px;
   }
 }
+
 @media screen and (min-width: 1230px) {
+
   .slider-section {
     padding: 0;
     margin: 120px 0 30px;

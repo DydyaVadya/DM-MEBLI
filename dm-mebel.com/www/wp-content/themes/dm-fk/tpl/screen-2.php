@@ -102,7 +102,7 @@
                                                 </a>
                                                 <div class="card-row row">
                                                     <div class="col-sm-7"><a href="#" data-toggle="modal" data-target="#detail-modal-<?= $post->ID ?>" class="card-description" title="<?= $post->post_content; ?>"><?= $post->post_content; ?></a></div>
-                                                    <div class="col-sm-5 align-self-center"><p class="card-price">от <?= $price; ?> грн</p></div>
+                                                    <div class="col-sm-5 col-md-12 col-lg-12 col-xl-5 align-self-center"><p class="card-price">от <?= $price; ?> грн</p></div>
                                                 </div>
                                                 <a href="#" class="card-btn button" data-toggle="modal" data-target="#detail-modal-<?= $post->ID ?>" title="Подробнее"><span>Подробнее</span></a>
                                             </div>
