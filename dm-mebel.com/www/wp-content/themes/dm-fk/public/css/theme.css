@@ -1916,23 +1916,19 @@ input[type=radio]:checked + label::after {
 .carousel-panel {
   /*!*background: rgba(255, 255, 255, 0.6);*!*/
   /*padding: 10px 15px;*/
-    padding: 10px 15px; */
-position: relative;
-    z-index: 20;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    /* align-content: space-between; */
-    /* height: 100%; */
-    /* align-self: stretch; */
-    justify-content: space-between;
-    height: 70vh;
-    margin-top: 10%;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+  margin-top: 4%;
 }
 @media screen and (min-width: 768px) {
   .carousel-panel {
-    display: table;
+    /*display: table;*/
     table-layout: fixed;
   }
 }
