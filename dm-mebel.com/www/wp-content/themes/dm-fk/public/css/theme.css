@@ -1852,7 +1852,7 @@ input[type=radio]:checked + label::after {
   flex: 1 1 auto;
   position: relative;
   z-index: 50;
-  height: 90vh;
+  height: 100vh;
 }
 .carousel > *:not(:nth-child(1)) {
   display: none;
@@ -2103,6 +2103,12 @@ input[type=radio]:checked + label::after {
 .carousel-dots .slick-dots .slick-active button::before {
   display: block;
 }
+.heading_wrap {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
+
+
 .heading {
   position: relative;
   padding: 0 0 13px 15px;

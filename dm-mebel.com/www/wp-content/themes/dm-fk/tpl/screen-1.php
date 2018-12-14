@@ -34,9 +34,11 @@
                 <img src="<?= $slider['url'] ?>" class="carousel-img" width="1920" height="1000" alt="Picture">
                 <div class="carousel-container">
                     <div class="carousel-panel">
+                        <div class="heading_wrap">
                         <h1 class="heading"><span><?= $slider['title']; ?></span><br> <?= $slider['caption']; ?></h1>
-                        <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
-                    </div>
+                        </div>
+                            <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
+                        </div>
                 </div> 
             </div>
         <?php endforeach; ?>
