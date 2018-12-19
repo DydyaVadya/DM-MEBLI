@@ -1923,8 +1923,8 @@ input[type=radio]:checked + label::after {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 70vh;
-  margin-top: 4%;
+  height: 77vh;
+  /*margin-top: 4%;*/
 }
 @media screen and (min-width: 768px) {
   .carousel-panel {
@@ -2104,8 +2104,9 @@ input[type=radio]:checked + label::after {
   display: block;
 }
 .heading_wrap {
-  background: rgba(255, 255, 255, 0.6);
+  /*background: rgba(255, 255, 255, 0.6);*/
   padding: 10px;
+  padding-bottom: 0px;
 }
 
 
@@ -4179,6 +4180,22 @@ input:focus.error {
 }
 /*# sourceMappingURL=theme.css.map */
 /*vider 12/12/18*/
+
+.caption {
+  font-size: 20px;
+  text-transform: none;
+  font-weight: normal;
+  color: white!important;
+  font-family: sans-serif!important;
+}
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .caption {
+    font-size: 14px!important;
+  }
+}
+
+
+}
 @media screen and (min-width: 320px) {
   .tab-content-id {
     max-height: 1250px;
@@ -4194,6 +4211,7 @@ input:focus.error {
       max-height: 1320px;
       overflow: hidden;
     }
+  }
     @media screen and (min-width: 411px) {
       .tab-content-id {
         max-height: 1380px;
@@ -4218,6 +4236,7 @@ input:focus.error {
       overflow: hidden;
     }
   }
+
 
 
       @media screen and (min-width: 1024px) {
@@ -4273,4 +4292,5 @@ input:focus.error {
             height: 300px;
         }
     }
-    }
+
+

@@ -35,7 +35,7 @@
                 <div class="carousel-container">
                     <div class="carousel-panel">
                         <div class="heading_wrap">
-                        <h1 class="heading"><span><?= $slider['title']; ?></span><br> <?= $slider['caption']; ?></h1>
+                        <h1 style="line-height: 0.9" class="heading"><span><?= $slider['title']; ?></span><br> <span class="caption"><?= $slider['caption']; ?></span></h1>
                         </div>
                             <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
                         </div>
