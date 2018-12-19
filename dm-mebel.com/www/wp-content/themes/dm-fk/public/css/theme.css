@@ -2277,7 +2277,7 @@ input[type=radio]:checked + label::after {
   color: #231f20;
   font-family: 'SFUIDisplay-Black', sans-serif;
   display: block;
-  padding: 0 6px;
+  /*padding: 0 6px;*/
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2295,7 +2295,7 @@ input[type=radio]:checked + label::after {
 }
 @media screen and (min-width: 992px) {
   .card-name {
-    font-size: 30px;
+    font-size: 18px;
   }
   .card-name > span {
     font-size: 30px;
@@ -2354,6 +2354,14 @@ input[type=radio]:checked + label::after {
 @media screen and (min-width: 768px) {
   .card-media {
     margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .card-name {
+    font-size: 15px;
+  }
+  .card-name > a {
+    white-space: unset;
   }
 }
 .card-description {
