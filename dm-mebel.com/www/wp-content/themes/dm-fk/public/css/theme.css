@@ -1499,6 +1499,7 @@ input[type=radio]:checked + label::after {
   border-bottom: 1px dashed #000;
   cursor: pointer;
   text-align: center;
+  opacity: 0;
 }
 .onClickProduct span{
   text-transform: uppercase;
@@ -2240,7 +2241,8 @@ input[type=radio]:checked + label::after {
 
 
     .tab-content-id{
-        max-height: 1425px;
+        /*max-height: 1425px;*/
+      max-height: 100%!important;
         overflow: hidden;
     }
 }
