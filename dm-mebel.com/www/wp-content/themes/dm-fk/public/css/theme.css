@@ -1490,7 +1490,8 @@ input[type=radio]:checked + label::after {
   /*overflow: hidden;*/
 /*}*/
 .tab-content-id {
-  max-height: 1280px;
+  /*max-height: 1280px;*/
+    max-height: 100%!important;
   overflow: hidden;
 }
 .onClickProduct{
@@ -1542,7 +1543,8 @@ input[type=radio]:checked + label::after {
 @media screen and (min-width: 992px) {
 
   .tab-content-id{
-  max-height: 1400px;
+  /*max-height: 1400px;*/
+      max-height: 100%!important;
   overflow: hidden;
   }
 
@@ -2196,8 +2198,9 @@ input[type=radio]:checked + label::after {
 
 
   .tab-content-id{
-    max-height: 1330px;
+    /*max-height: 1330px;*/
     overflow: hidden;
+      max-height: 100%!important;
   }
 }
 @media screen (min-width: 430px) and (max-width: 500px) {
@@ -2253,7 +2256,8 @@ input[type=radio]:checked + label::after {
 
 
 .tab-content-id{
-  max-height: 1450px;
+  /*max-height: 1450px;*/
+    max-height: 100%!important;
   overflow: hidden;
 }
 }
@@ -4208,42 +4212,49 @@ input:focus.error {
 }
 @media screen and (min-width: 320px) {
   .tab-content-id {
-    max-height: 1250px;
+    /*max-height: 1250px;*/
     overflow: hidden;
+      max-height: 100%!important;
   }
   @media screen and (min-width: 360px) {
     .tab-content-id {
-      max-height: 1300px;
+      /*max-height: 1300px;*/
       overflow: hidden;
+        max-height: 100%!important;
     }
   @media screen and (min-width: 375px) {
     .tab-content-id {
-      max-height: 1320px;
+      /*max-height: 1320px;*/
       overflow: hidden;
+        max-height: 100%!important;
     }
   }
     @media screen and (min-width: 411px) {
       .tab-content-id {
-        max-height: 1380px;
+        /*max-height: 1380px;*/
         overflow: hidden;
+          max-height: 100%!important;
       }
     }
     @media screen and (min-width: 414px) {
       .tab-content-id {
-        max-height: 1380px;
+        /*max-height: 1380px;*/
         overflow: hidden;
+          max-height: 100%!important;
       }
     }
 @media screen and (min-width: 425px) {
   .tab-content-id {
-    max-height: 1400px;
+    /*max-height: 1400px;*/
     overflow: hidden;
+      max-height: 100%!important;
   }
 }
     @media screen and (min-width: 768px) {
     .tab-content-id {
-      max-height: 1280px;
+      /*max-height: 1280px;*/
       overflow: hidden;
+        max-height: 100%!important;
     }
   }
 
@@ -4251,21 +4262,24 @@ input:focus.error {
 
       @media screen and (min-width: 1024px) {
           .tab-content-id {
-              max-height: 1400px;
+              /*max-height: 1400px;*/
               overflow: hidden;
+              max-height: 100%!important;
           }
       }
 
       @media screen and (min-width: 1077px) {
           .tab-content-id {
-              max-height: 1430px;
+              /*max-height: 1430px;*/
               overflow: hidden;
+              max-height: 100%!important;
           }
       }
       @media screen and (min-width: 1112px) {
           .tab-content-id {
-              max-height: 1450px;
+              /*max-height: 1450px;*/
               overflow: hidden;
+              max-height: 100%!important;
           }
       }
     @media screen and (min-width: 1200px) {
@@ -4277,14 +4291,16 @@ input:focus.error {
 
       @media screen and (min-width: 1366px) {
           .tab-content-id {
-              max-height: 1380px;
+              /*max-height: 1380px;*/
               overflow: hidden;
+              max-height: 100%!important;
           }
       }
       @media screen and (min-width: 1519px) {
           .tab-content-id {
-              max-height: 1450px;
+              /*max-height: 1450px;*/
               overflow: hidden;
+              max-height: 100%!important;
           }
       }
 @media screen and (min-width: 1520px) {
@@ -4295,8 +4311,9 @@ input:focus.error {
 }
     @media screen and (min-width: 2560px) {
       .tab-content-id {
-        max-height: 1450px;
+        /*max-height: 1450px;*/
         overflow: hidden;
+          max-height: 100%!important;
       }
         body #screen5 .quest ul li .imgBlock {
             height: 300px;
