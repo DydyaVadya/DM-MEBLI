@@ -44,7 +44,7 @@
                     <form action="#" method="post" class="form">
                         <div class="input-row">
                             <input type="text" class="empty" id="name-callback" required>
-                            <label for="name-callback">Имя</label>
+<!--                            <label for="name-callback">Имя</label>-->
                         </div>
                         <div class="input-row">
                             <input type="tel" id="tel-callback" class="empty" pattern="[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" required>

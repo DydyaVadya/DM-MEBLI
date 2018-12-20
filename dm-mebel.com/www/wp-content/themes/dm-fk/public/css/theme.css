@@ -1269,6 +1269,10 @@ textarea {
   color: #9d9d9d;
   font-family: 'SFUIDisplay-Bold', sans-serif;
   border: 5px solid #eee;
+  display: none;
+}
+#name-callback {
+  display: none;
 }
 button {
   outline: none;
