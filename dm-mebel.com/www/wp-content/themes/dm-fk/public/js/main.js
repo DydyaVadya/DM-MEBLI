@@ -275,24 +275,32 @@ jQuery(document).ready(function (jQuery) {
                 });
 
                 $btnSend.submit(function(event) {
+                    
 
                     event.preventDefault();
-
-                    var val;
+                 
 
                     $this.find("input").each(function () {
                         var $this =  jQuery(this);
                         val = $this.val();
+                        
                     });
 
                     event.preventDefault();
 
                     var formData = new FormData();
-                    console.log(jQuery(this).find('.type-form').val());
+                    
+                    console.log(jQuery(this).find('.type-form').val());                  
+                    
 
                     switch(jQuery(this).find('.type-form').val()){
 
                         case 'review':
+                        //проверка формы
+                        if(jQuery(this).find('#tel-review').val().length < 17){
+                            alert("Введите номер!");
+                            return false;
+                        }
                             console.log(jQuery(this).find('.type-form').val());
                             formData.append('name', jQuery('#name-review').val());
                             formData.append('tel', jQuery('#tel-review').val());
@@ -372,7 +380,12 @@ jQuery(document).ready(function (jQuery) {
 
                             break;
                         case 'realization':
-
+                        //проверка формы
+                        if(jQuery(this).find('#tel-input').val().length < 17){
+                                alert("Введите номер!");
+                                return false;
+                            }
+                           
                             var newFiles_review = [],
                                 files_review = [];
                             $fileInput = document.getElementById("form-realization-file");
@@ -394,6 +407,10 @@ jQuery(document).ready(function (jQuery) {
                             // });
 
                             formData.append('phone', jQuery('#tel-input').val());
+                            // if(formData.tel_callback.length < 17){
+                            //     alert("Введите номер!");
+                            //     return false;
+                            // }
 
                             url = 'https://' + location.hostname + '/send/message.php';
 
@@ -462,14 +479,14 @@ jQuery(document).ready(function (jQuery) {
     });
 
     // mask
-    jQuery(function () {
-        var $tel = jQuery('[type="tel"]');
-        $tel.inputmask({
-            mask: ["+38(999)999-99-99"],
-            keepStatic: true,
-            showMaskOnHover: false
-        });
-    });
+    // jQuery(function () {
+    //     var $tel = jQuery('[type="tel"]');
+    //     $tel.inputmask({
+    //         mask: ["+38(999)999-99-99"],
+    //         keepStatic: true,
+    //         showMaskOnHover: false
+    //     });
+    // });
 
 
     // jQuery('form').removeAttr('novalidate');
