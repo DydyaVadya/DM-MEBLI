@@ -1,6 +1,6 @@
 <?php
 /**
- * A pseudo-CRON daemon for scheduling WordPress tasks...
+ * A pseudo-CRON daemon for scheduling WordPress tasks.
  *
  * WP Cron is triggered when the site receives a visit. In the scenario
  * where a site may not receive enough visits to execute scheduled tasks
