@@ -471,9 +471,14 @@ jQuery(document).ready(function (jQuery) {
         });
     });
 
+
     // jQuery('form').removeAttr('novalidate');
 
 });
+
+
+
+
 
 
 
