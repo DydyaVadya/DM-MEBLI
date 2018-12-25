@@ -352,8 +352,6 @@ jQuery(document).ready(function (jQuery) {
                                 formData.append('file_wanted', file);
                             });
 
-
-
                             var myajax = {"url":'https://' + location.hostname + '/wp-admin/admin-ajax.php'};
 
                             // var data = {

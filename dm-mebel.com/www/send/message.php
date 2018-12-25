@@ -124,7 +124,7 @@
             # Обсудить реализация
             default: 
             
-                if(!empty($_FILES) && !empty($_POST['phone'])){
+                if(!empty($_POST['phone'])){
                     
                     $mail = new PHPMailer(true); 
 
