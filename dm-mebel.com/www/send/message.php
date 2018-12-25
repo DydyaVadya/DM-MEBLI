@@ -7,8 +7,9 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    $email = 'pm.fk228@gmail.com';
-
+//    $email = 'pm.fk228@gmail.com';
+$email = 'vider2015adw@gmail.com';
+    $dt = date("Y-m-d H:i:s");
     require 'src/Exception.php';
     require 'src/PHPMailer.php';
 
@@ -43,6 +44,10 @@
 
                 $mail->send();
 
+                $msg = "Дм мебель заказ"."%0A"."Дата: $dt"."%0A"."Имя Товара: $name_callback"."%0A"."Телефон: $tel_callback"."%0A"."Фото Товара: $img_callback"."%0A"."Описание товара: $dasc_callback";
+                file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
+
+
                 echo('{
                     "result": true,
                     "message": "Ваше сообщение отправлено"
@@ -73,6 +78,9 @@
 
                 $mail->send();
 
+                $msg = "Дм мебель Обратный звонок"."%0A"."Дата: $dt"."%0A"."Телефон: $tel_callback";
+                file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
+
                 echo('{
                     "result": true,
                     "message": "Ваше сообщение отправлено"
@@ -101,6 +109,9 @@
                 ';
 
                 $mail->send();
+
+                $msg = "Заказ консультации"."%0A"."Дата: $dt"."%0A"."Имя: $name_callback"."%0A"."Телефон: $tel_callback";
+                file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
 
                 echo('{
                     "result": true,
@@ -143,6 +154,9 @@
                     }
 
                 }
+
+                $msg = "Обсудить реализацию"."%0A"."Дата: $dt"."%0A"."файл: " .$saveFile[$file['tmp_name']]."%0A"."Телефон: ".$_POST['phone']."%0A"."";
+                file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
 
                 $mail->send();
 
