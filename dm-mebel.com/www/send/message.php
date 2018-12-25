@@ -7,7 +7,7 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-    $email = 'pm.fk228@gmail.com';
+    $email = 'hseredad@gmail.com';
 
     require 'src/Exception.php';
     require 'src/PHPMailer.php';
