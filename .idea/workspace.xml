@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb6961c0-e439-4b7a-aa2b-ca2ba7884168" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js" beforeDir="false" afterPath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1503">
+              <caret line="388" column="53" selection-start-line="388" selection-start-column="53" selection-end-line="388" selection-end-column="53" />
+              <folding>
+                <element signature="e#93#99#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>+38</find>
+      <find>#ec9c9c</find>
+      <find>focus</find>
+      <find>error</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\sites\DM-MEBLI</dir>
+      <dir>D:\sites\DM-MEBLI\dm-mebel.com</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dm-mebel.com/www/wp-cron.php" />
+        <option value="$PROJECT_DIR$/dm-mebel.com/www/send/message.php" />
+        <option value="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/dm-mebel.com/www/wp-content/plugins/above-the-fold-optimization/admin/docs/package.json" />
+      <path value="$PROJECT_DIR$/dm-mebel.com/www/wp-content/plugins/above-the-fold-optimization/modules/critical-css-build-tool/package.json" />
+      <path value="$PROJECT_DIR$/dm-mebel.com/www/wp-content/plugins/above-the-fold-optimization/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb6961c0-e439-4b7a-aa2b-ca2ba7884168" name="Default" comment="" />
+      <created>1545646546878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545646546878</updated>
+      <workItem from="1545646550415" duration="10218000" />
+      <workItem from="1545737309958" duration="2825000" />
+    </task>
+    <task id="LOCAL-00001" summary="test vetal'">
+      <created>1545647056799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545647056799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test vetal 2">
+      <created>1545647711344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545647711344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test vetal 3">
+      <created>1545647859722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545647859722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавил валидацию на формах">
+      <created>1545663942890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545663942890</updated>
+    </task>
+    <task id="LOCAL-00005" summary="изменил почту получателя обратного звонка">
+      <created>1545739108921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545739108921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="свой комит не мог пулить">
+      <created>1545739554001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545739554001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'Vider_DM' of https://github.com/DydyaVadya/DM-MEBLI into Vider_DM&#10;&#10;# Conflicts:&#10;#&#9;dm-mebel.com/www/send/message.php">
+      <created>1545739769555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545739769556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13043000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.13675214" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="7" sideWeight="0.49932885" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" visible="true" weight="0.13675214" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785235" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test vetal'" />
+    <MESSAGE value="test vetal 2" />
+    <MESSAGE value="test vetal 3" />
+    <MESSAGE value="добавил валидацию на формах" />
+    <MESSAGE value="изменил почту получателя обратного звонка" />
+    <MESSAGE value="свой комит не мог пулить" />
+    <MESSAGE value="Merge branch 'Vider_DM' of https://github.com/DydyaVadya/DM-MEBLI into Vider_DM&#10;&#10;# Conflicts:&#10;#&#9;dm-mebel.com/www/send/message.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Vider_DM' of https://github.com/DydyaVadya/DM-MEBLI into Vider_DM&#10;&#10;# Conflicts:&#10;#&#9;dm-mebel.com/www/send/message.php" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10020">
+          <caret line="501" selection-start-line="501" selection-end-line="501" />
+          <folding>
+            <element signature="e#93#99#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1503">
+          <caret line="388" column="53" selection-start-line="388" selection-start-column="53" selection-end-line="388" selection-end-column="53" />
+          <folding>
+            <element signature="e#93#99#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
