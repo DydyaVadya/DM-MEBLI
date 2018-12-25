@@ -35,9 +35,9 @@
             <div class="heading-row">
                 <p class="heading-count">02</p>
                 <div class="heading-row-container">
-
+                    <div class="heading_wrap">
                     <h2 class="heading"><?= $title ?><br> <?= $subtitle ?></h2>
-
+                    </div>
                 </div>
             </div>
 
