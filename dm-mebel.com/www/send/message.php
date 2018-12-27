@@ -7,9 +7,10 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
-//    $email = 'pm.fk228@gmail.com';
-$email = 'vider2015adw@gmail.com';
+
     $dt = date("Y-m-d H:i:s");
+    $email = 'hseredad@gmail.com';
+
     require 'src/Exception.php';
     require 'src/PHPMailer.php';
 
@@ -123,7 +124,7 @@ $email = 'vider2015adw@gmail.com';
             # Обсудить реализация
             default: 
             
-                if(!empty($_FILES) && !empty($_POST['phone'])){
+                if(!empty($_POST['phone'])){
                     
                     $mail = new PHPMailer(true); 
 
