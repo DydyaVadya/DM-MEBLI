@@ -53,6 +53,7 @@
                         <textarea rows="1" placeholder="Ваш комментарий"></textarea>
                         <button class="button" type="submit">Жду звонка</button>
                     </form>
+                    <p id='error-msg' style='color: red; display: none;'>Введите корректный номер телефона!!</p>
                 </div>
             </div>
         </div>
@@ -107,6 +108,7 @@
                         <div class="col-sm-7"><p>Если вам не терпится приступить к сборке дивана, позвоните нам:</p></div>
                         <div class="col-sm-5 align-self-center"><a href="tel:+380931903841" target="_blank" title="(093) 190 38 41">(093) 190 38 41</a></div>
                     </div>
+                    <p id='error-msg' style='color: red; display: none;'>Введите корректный номер телефона!!</p>
                 </div> 
             </div>
         </div>
@@ -173,13 +175,15 @@
                             <label for="name-review">Имя</label>
                         </div>
                         <div class="input-row">
-                        <input type="tel" id="tel-review" class="empty" pattern="[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" required>
-                            <label for="tel-review">Телефон</label>
-                        </div>
-                        <div class="input-row">
                             <input type="text" class="empty" id="city-review" required>
                             <label for="city-review">Город</label>
                         </div>
+                        <div class="input-row">
+                        <input type="tel" id="tel-review" class="empty" pattern="[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" required>
+                            <label for="tel-review">Телефон</label>
+                        </div>
+
+                        <p id='error-msg' style='color: red; display: none;'>Введите корректный номер телефона!!</p>
                         <textarea rows="8" id="comment-review" placeholder="Ваш комментарий"></textarea>
                         <div class="file-input-col add-file">
                             <input type="file" required="required" class="file-input file-input-review-photo">
