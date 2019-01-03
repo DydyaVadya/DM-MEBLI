@@ -49,6 +49,7 @@
                         </div>
                         <div class="file-input-row add-file">
                             <input type="file" multiple="multiple" id="form-realization-file" name="file1" required="required" class="file-input">
+                            <p id='error-msg' style='color: red; display: none;'>Введите корректный номер телефона!!</p>
                             <button type="button" class="btn-add-file">Добавить фотографию</button>
                             <input type="hidden" value="realization" class="type-form">
                             <div class="selected-files-container">
@@ -59,6 +60,7 @@
                             </div>
                         </div>
                         <button type="submit" class="button btn-send"><span>Обсудить реализацию</span></button>
+
                     </form>
 
                 </div>

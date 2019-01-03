@@ -98,6 +98,7 @@
                                     <div class="col-sm-6"><button class="button" type="submit">Перезвоните мне</button></div>
                                 </div>
                             </form>
+                            <p id='error-msg' style='color: red; display: none;'>Введите корректный номер телефона!!</p>
                             <h6><b>особеность этой модели</b></h6>
                             <hr>
                             <?= $feature; ?>

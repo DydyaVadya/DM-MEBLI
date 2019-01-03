@@ -275,8 +275,9 @@ jQuery(document).ready(function (jQuery) {
                 });
 
                 $btnSend.submit(function(event) {
-                    
 
+                    var target = event.currentTarget;
+                    console.log(target);
                     event.preventDefault();
                  
 
@@ -298,7 +299,11 @@ jQuery(document).ready(function (jQuery) {
                         case 'review':
                         //проверка формы
                         if(jQuery(this).find('#tel-review').val().length < 17){
-                            alert("Введите номер!");
+                            // alert("Введите номер!");
+                            jQuery(target).find('#error-msg').css({
+                                'display': 'block',
+
+                            });
                             return false;
                         }
                             console.log(jQuery(this).find('.type-form').val());
@@ -352,8 +357,6 @@ jQuery(document).ready(function (jQuery) {
                                 formData.append('file_wanted', file);
                             });
 
-
-
                             var myajax = {"url":'https://' + location.hostname + '/wp-admin/admin-ajax.php'};
 
                             // var data = {
@@ -367,7 +370,11 @@ jQuery(document).ready(function (jQuery) {
                                 url: myajax.url,
                                 data: formData,
                                 type: 'POST',
-                                success: function(data) { console.log(data); },
+                                success: function(data) { console.log(data);
+                                    jQuery(target).find('#error-msg').css({
+                                        'display': 'none',
+
+                                    });},
                                 erroro: function(data) { console.log('ERROR !!!'); },
                                 cache: false,
                                 processData: false,
@@ -380,9 +387,15 @@ jQuery(document).ready(function (jQuery) {
 
                             break;
                         case 'realization':
+
+
                         //проверка формы
                         if(jQuery(this).find('#tel-input').val().length < 17){
-                                alert("Введите номер!");
+                                // alert("Введите номер!");
+                            jQuery(target).find('#error-msg').css({
+                                'display': 'block',
+
+                            });
                                 return false;
                             }
                            
@@ -420,6 +433,10 @@ jQuery(document).ready(function (jQuery) {
                                 type: 'POST',
                                 success: function(data) {
                                     jQuery('.success-recourse-modal').modal();
+                                    jQuery(target).find('#error-msg').css({
+                                        'display': 'none',
+
+                                    });
                                 },
                                 erroro: function(data) { console.log('ERROR !!!'); },
                                 cache: false,
