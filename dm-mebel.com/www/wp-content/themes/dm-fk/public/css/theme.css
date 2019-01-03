@@ -4242,7 +4242,8 @@ input[type=radio]:checked + label::after {
 }
 input:focus.error {
     border-color: #ec9c9c;
-} 
+}
+
 .zoom-container > * {
     z-index: 1000;
 }
