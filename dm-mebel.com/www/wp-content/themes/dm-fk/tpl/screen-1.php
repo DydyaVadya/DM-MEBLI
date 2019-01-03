@@ -36,6 +36,12 @@
                     <div class="carousel-panel">
                         <div class="heading_wrap">
                         <h1 style="line-height: 0.9" class="heading"><span><?= $slider['title']; ?></span><br> <span class="caption"><?= $slider['caption']; ?></span></h1>
+                            <div class="descript">
+                                <p>Мягка износостойкая мебль с <span>гарантией 18 месцев</span></p>
+                            <p>Изготовим до <span>100 изделий за 20 рабочих дней</span></p>
+                            <p>Стоимость изделий <span>от и до</span></p>
+                            <p>Изготовим мебель <span>по вашим эскизам или фото</span></p>
+                            </div>
                         </div>
                             <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
                         </div>
