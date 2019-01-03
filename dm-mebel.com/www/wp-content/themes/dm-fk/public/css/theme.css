@@ -25,6 +25,31 @@
 body {
   margin: 0;
 }
+.pinkness {
+  filter: blur(10px);
+}
+
+.divan:after{
+  content: "";
+  z-index: 1;
+  width: 50%;
+  position: absolute;
+  height: 34%;
+  background-image: url(../images/divan.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+  /*.divan:after {*/
+  /*content: url(https://banner2.kisspng.com/20180427/tsw/kisspng-loveseat-sofa-bed-couch-chair-sofology-pink-sofa-5ae32229aee821.9249646….jpg);*/
+  /*top: 25px;*/
+  /*left: 20px;*/
+  /*position: relative;*/
+  /*z-index: 100;*/
+/*}*/
+
+
 
 /**
  * Add the correct display in IE 9-.

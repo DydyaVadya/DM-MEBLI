@@ -30,8 +30,8 @@
     <div class="carousel">
 
         <?php foreach($sliders as $slider): ?>
-            <div class="carousel-item">
-                <img src="<?= $slider['url'] ?>" class="carousel-img" width="1920" height="1000" alt="Picture">
+            <div class="carousel-item divan">
+                <img src="<?= $slider['url'] ?>" class="carousel-img pinkness" width="1920" height="1000" alt="Picture">
                 <div class="carousel-container">
                     <div class="carousel-panel">
                         <div class="heading_wrap">
