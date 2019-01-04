@@ -44,6 +44,25 @@ body {
   top: 14%;
   left: 46%;
 }
+.divan:before{
+  display: flex;
+  flex-wrap: wrap;
+  content: "Диван «Energy»";
+  z-index: 2;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  top: 59%;
+  left: 66%;
+  font-family: 'SFUIDisplay-Light', sans-serif;
+  color: #231f20;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: large;
+}
+
+
 
 
   /*.divan:after {*/
@@ -4267,6 +4286,10 @@ input:focus.error {
   .divan:after {
     display: none;
   }
+  .divan:before{
+    display: none;
+  }
+
   .heading_wrap{
     padding: 0px;
   }
