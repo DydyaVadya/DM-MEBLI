@@ -27,6 +27,8 @@ body {
 }
 .pinkness {
   filter: blur(10px);
+  height: 46vh!important;
+  transform: scale(-1, 1);
 }
 
 .divan:after{
@@ -592,8 +594,8 @@ template {
 .slick-slide img
 {
     display: block;
-  transform: scale(-1, 1);
-  height: 46vh;
+
+  /*height: 46vh;*/
 }
 .slick-slide.slick-loading img
 {
