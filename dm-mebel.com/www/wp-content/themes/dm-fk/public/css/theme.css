@@ -41,10 +41,10 @@ body {
   height: 55%;
   background-image: url(../images/divan.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: inherit;
-  top: 14%;
-  left: 46%;
+  top: 174px;
+  right: -2px;
 }
 .divan:before{
   display: flex;
@@ -55,7 +55,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
-  top: 59%;
+  bottom: 300px;
   left: 66%;
   font-family: 'SFUIDisplay-Light', sans-serif;
   color: #231f20;
@@ -63,7 +63,9 @@ body {
   font-weight: 800;
   font-size: large;
 }
-
+.divan_mobile {
+  display: none!important;
+}
 
 
 
@@ -1149,7 +1151,7 @@ td {
   table-layout: fixed;
   position: relative;
   border: 3px solid #ed9c38;
-  color: white;
+  color: #ed9c38;
   font-family: 'SFUIDisplay-Black', sans-serif;
   margin: 0 0 15px;
   cursor: pointer;
@@ -1157,7 +1159,7 @@ td {
   background: none;
   font-size: 15px;
   padding: 5px 35px 5px 10px;
-  background-color: #ed9c38;
+  /*background-color: #ed9c38;*/
 }
 .button:after {
   content: "";
@@ -1168,11 +1170,17 @@ td {
   transform: translateY(-50%);
   width: 14px;
   height: 14px;
-  background: transparent url(../images/icons/arrow-right.svg) no-repeat;
+  background: transparent url(../images/icons/arrow-right-yelow.svg) no-repeat;
 }
+
 .button:hover {
   text-decoration: none;
-  border-color: #231f20;
+  border-color: #ed9c38;
+  background-color: #ed9c38;
+  color: white;
+}
+.button:hover::after{
+  background: transparent url(../images/icons/arrow-right-white.svg) no-repeat;
 }
 @media screen and (min-width: 768px) {
   .button {
@@ -1514,6 +1522,9 @@ input[type=radio]:checked + label::after {
   .page-header {
     border-bottom-width: 4px;
   }
+
+
+
 }
 .header-meta {
   display: -ms-flexbox;
@@ -1570,7 +1581,7 @@ input[type=radio]:checked + label::after {
 .logotype img {
   display: block;
   width: 100%;
-  margin: 0 0 5px;
+  margin: 5px 0 5px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0, 0, 0);
@@ -1914,6 +1925,7 @@ input[type=radio]:checked + label::after {
   position: relative;
   z-index: 50;
   height: 100vh;
+  background-color: white;
 }
 .carousel > *:not(:nth-child(1)) {
   display: none;
@@ -4398,6 +4410,40 @@ input:focus.error {
     margin-bottom: 70px;
   }
 }
+    @media screen and (min-width: 2200px){
+      .divan:after{
+        display: flex;
+        flex-wrap: wrap;
+        content: "";
+        z-index: 1;
+        width: 25%;
+        position: absolute;
+        height: 55%;
+        background-image: url(../images/divan.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: inherit;
+        top: 23%;
+        left: 50%;
+    }
+      .divan:before {
+        display: flex;
+        flex-wrap: wrap;
+        content: "Диван «Energy»";
+        z-index: 2;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+        top: 533px;
+        left: 1486px;
+        font-family: 'SFUIDisplay-Light', sans-serif;
+        color: #231f20;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: large;
+      }
+  }
     @media screen and (min-width: 2560px) {
       .tab-content-id {
         /*max-height: 1450px;*/
@@ -4408,6 +4454,101 @@ input:focus.error {
             height: 300px;
         }
     }
+/*мобильная версия*/
+    @media screen and (min-width: 100px) and (max-width: 768px) {
+      .heading span {
+        font-size: 30px;
+      }
+      .carousel-container {
+        height: 100vh;
+    }
+      .carousel-panel {
+        height: 80vh;
+        margin: 0 auto;
+    }
+      .head_button {
+        margin: 0 auto;
+        margin-top: -30px;
+      }
+      .heading_wrap {
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .caption {
+        font-size: 19px!important;
+    }
+      .descript p{
+      font-size: small;
+    }
+      .divan_mobile {
+        display: block!important;
+        background-image:url(../images/divan.png) ;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 28vh;
+        background-position: center;
+        block-size: ;
+        background-size: contain;
+        margin-top: -30px;
+      }
+      .heading {
+        margin-bottom: 5px;
+    }
+      .descript {
+        margin-bottom: 0;
+    }
+  }
+    @media screen and (min-width: 768px) and (max-width: 900px){
+      .heading span {
+        font-size: 30px;
+      }
+      .carousel-container {
+        height: 100vh;
+      }
+      .carousel-panel {
+        height: 80vh;
+        margin: 0 auto;
+      }
+      .head_button {
+        margin: 0 auto;
+        margin-top: -30px;
+      }
+      .heading_wrap {
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .caption {
+        font-size: 19px!important;
+      }
+      .descript p{
+        font-size: small;
+      }
+      .divan_mobile {
+        display: block!important;
+        background-image:url(../images/divan.png) ;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        block-size: ;
+        background-size: contain;
+        margin-top: -30px;
+      }
+      .heading {
+        margin-bottom: 5px;
+      }
+      .descript {
+        margin-bottom: 0;
+      }
+    }
 
+    /*скрывает диван при развороте телефона*/
+    @media screen and (min-device-aspect-ratio: 16/9) {
+      .divan_mobile {
+        display: none!important;
+    }
+    }
+
+/*планшет */
 
 

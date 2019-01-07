@@ -42,8 +42,10 @@
                             <p>Стоимость изделий <span>от и до</span></p>
                             <p>Изготовим мебель <span>по вашим эскизам или фото</span></p>
                             </div>
+                            
                         </div>
-                            <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
+                        <div class="divan_mobile"></div>
+                            <a href="#" class="button head_button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
                         </div>
                 </div> 
             </div>
