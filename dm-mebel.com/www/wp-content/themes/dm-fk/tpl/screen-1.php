@@ -38,9 +38,9 @@
                         <h1 style="line-height: 0.9" class="heading"><span><?= $slider['title']; ?></span><br> <span class="caption"><?= $slider['caption']; ?></span></h1>
                             <div class="descript">
                                 <p>Мягкая износостойкая мебель с <span>гарантией 18 месяцев</span></p>
-                            <p>Изготовим до <span>100 изделий за 20 рабочих дней</span></p>
-                            <p>Стоимость изделий <span>от и до</span></p>
-                            <p>Изготовим мебель <span>по вашим эскизам или фото</span></p>
+                            <p>Срок изготовления дивана<span> под заказ от 14 до 30 дней</span></p>
+                                <p>Изготовим мебель <span>по вашим эскизам или фото</span></p>
+                                <p>Модели из каталога <span>в наличии.</span></p>
                             </div>
                             
                         </div>
