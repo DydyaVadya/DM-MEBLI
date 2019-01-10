@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,69 +40,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/css/theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="1984" column="21" selection-start-line="1984" selection-start-column="2" selection-end-line="1984" selection-end-column="21" />
-              <folding>
-                <element signature="e#70765#70965#2" expanded="true" />
-                <element signature="e#71173#71322#2" expanded="true" />
-                <element signature="e#71824#71970#2" expanded="true" />
-                <element signature="e#72271#72437#1" expanded="true" />
-                <element signature="e#83157#83400#2" expanded="true" />
-                <element signature="e#84267#84516#2" expanded="true" />
-                <element signature="e#110813#111003#2" expanded="true" />
-                <element signature="e#111049#111239#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="admin-ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-admin/admin-ajax.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="message.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="82" column="153" selection-start-line="82" selection-start-column="153" selection-end-line="82" selection-end-column="153" />
+            <state relative-caret-position="320">
+              <caret line="161" column="131" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2560">
+              <caret line="375" selection-start-line="375" selection-end-line="375" />
               <folding>
-                <element signature="e#136#170#0#PHP" expanded="true" />
+                <element signature="e#93#99#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/www.php">
+      <file leaf-file-name="send.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="80">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+                <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+                <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-2.php">
+      <file leaf-file-name="model-product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/model-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1508">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="2000">
+              <caret line="100" column="120" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="120" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+            <state relative-caret-position="369">
+              <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-1.php">
+      <file leaf-file-name="screen-6.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="280">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -189,14 +190,115 @@
     <option name="width" value="1565" />
     <option name="height" value="1005" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-fk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-fk" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-fk" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-fk" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM-MEBLI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM-MEBLI" type="462c0819:PsiDirectoryNode" />
+              <item name="dm-mebel.com" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -317,56 +419,69 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56706000" />
+    <option name="totallyTimeSpent" value="56708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18017058" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.56644297" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="7" sideWeight="0.43355703" weight="0.12636165" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" visible="true" weight="0.21132898" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.1906318" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.5460993" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.1906318" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.56644297" side_tool="true" weight="0.32765958" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.43355703" weight="0.12624113" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.5460993" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.56644297" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.43355703" weight="0.12624113" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.1906318" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18017058" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.5460993" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.1906318" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.56644297" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="File Transfer" order="12" sideWeight="0.43355703" visible="true" weight="0.12624113" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +532,217 @@
     <option name="LAST_COMMIT_MESSAGE" value="заменил фото дивана на диван с надписью" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7500">
+          <caret line="375" lean-forward="true" selection-start-line="375" selection-end-line="375" />
+          <folding>
+            <element signature="e#93#99#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/model-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="100" column="120" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3580">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7140">
+          <caret line="357" column="36" lean-forward="true" selection-start-line="357" selection-start-column="36" selection-end-line="357" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10020">
+          <caret line="501" selection-start-line="501" selection-end-line="501" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-includes/certificates/ca-bundle.crt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1467" column="34" selection-start-line="1467" selection-start-column="34" selection-end-line="1467" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="90" column="64" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#10#934#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/model-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="100" column="120" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2560">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
+          <folding>
+            <element signature="e#93#99#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-cron.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -460,39 +786,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/model-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="100" column="120" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="120" />
+        <state relative-caret-position="2000">
+          <caret line="100" column="120" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="120" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/tpl/screen-6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="280">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="375" lean-forward="true" selection-start-line="375" selection-end-line="375" />
+        <state relative-caret-position="2560">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
+          <folding>
+            <element signature="e#93#99#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/public/js/send.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1545999850662" expanded="true" signature="4723:5168" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10113:10251" ph="..." />
+            <marker date="1545999850662" expanded="true" signature="10550:10809" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/send/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="82" column="153" selection-start-line="82" selection-start-column="153" selection-end-line="82" selection-end-column="153" />
-          <folding>
-            <element signature="e#136#170#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="161" column="131" selection-start-line="161" selection-start-column="78" selection-end-line="161" selection-end-column="131" />
         </state>
       </provider>
     </entry>
@@ -512,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dm-mebel.com/www/wp-content/themes/dm-fk/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+        <state relative-caret-position="369">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -521,16 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="1984" column="21" selection-start-line="1984" selection-start-column="2" selection-end-line="1984" selection-end-column="21" />
-          <folding>
-            <element signature="e#70765#70965#2" expanded="true" />
-            <element signature="e#71173#71322#2" expanded="true" />
-            <element signature="e#71824#71970#2" expanded="true" />
-            <element signature="e#72271#72437#1" expanded="true" />
-            <element signature="e#83157#83400#2" expanded="true" />
-            <element signature="e#84267#84516#2" expanded="true" />
-            <element signature="e#110813#111003#2" expanded="true" />
-            <element signature="e#111049#111239#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
