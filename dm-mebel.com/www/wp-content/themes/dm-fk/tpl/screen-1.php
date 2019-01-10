@@ -30,14 +30,22 @@
     <div class="carousel">
 
         <?php foreach($sliders as $slider): ?>
-            <div class="carousel-item">
-                <img src="<?= $slider['url'] ?>" class="carousel-img" width="1920" height="1000" alt="Picture">
+            <div class="carousel-item divan">
+                <img src="<?= $slider['url'] ?>" class="carousel-img pinkness" width="1920" height="1000" alt="Picture">
                 <div class="carousel-container">
                     <div class="carousel-panel">
                         <div class="heading_wrap">
                         <h1 style="line-height: 0.9" class="heading"><span><?= $slider['title']; ?></span><br> <span class="caption"><?= $slider['caption']; ?></span></h1>
+                            <div class="descript">
+                                <p>Мягкая износостойкая мебель с <span>гарантией 18 месяцев</span></p>
+                            <p>Срок изготовления дивана<span> под заказ от 14 до 30 дней</span></p>
+                                <p>Изготовим мебель <span>по вашим эскизам или фото</span></p>
+                                <p>Модели из каталога <span>в наличии.</span></p>
+                            </div>
+                            
                         </div>
-                            <a href="#" class="button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
+                        <div class="divan_mobile"></div>
+                            <a href="#" class="button head_button" data-toggle="modal" data-target="#get-consultation-modal" title="Получить консультацию">Получить консультацию</a>
                         </div>
                 </div> 
             </div>

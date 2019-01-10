@@ -25,6 +25,59 @@
 body {
   margin: 0;
 }
+.pinkness {
+  filter: blur(10px);
+  height: 46vh!important;
+  transform: scale(-1, 1);
+}
+
+.divan:after{
+  display: flex;
+  flex-wrap: wrap;
+  content: "";
+  z-index: 1;
+  width: 50%;
+  position: absolute;
+  height: 55%;
+  background-image: url(../images/divan2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: inherit;
+  top: 174px;
+  right: -2px;
+}
+/*.divan:before{*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*content: "Диван «Energy»";*/
+  /*z-index: 2;*/
+  /*position: absolute;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-position: inherit;*/
+  /*bottom: 300px;*/
+  /*left: 66%;*/
+  /*font-family: 'SFUIDisplay-Light', sans-serif;*/
+  /*color: #231f20;*/
+  /*text-transform: uppercase;*/
+  /*font-weight: 800;*/
+  /*font-size: large;*/
+/*}*/
+.divan_mobile {
+  display: none!important;
+}
+
+
+
+  /*.divan:after {*/
+  /*content: url(https://banner2.kisspng.com/20180427/tsw/kisspng-loveseat-sofa-bed-couch-chair-sofology-pink-sofa-5ae32229aee821.9249646….jpg);*/
+  /*top: 25px;*/
+  /*left: 20px;*/
+  /*position: relative;*/
+  /*z-index: 100;*/
+/*}*/
+
+
 
 /**
  * Add the correct display in IE 9-.
@@ -543,6 +596,8 @@ template {
 .slick-slide img
 {
     display: block;
+
+  /*height: 46vh;*/
 }
 .slick-slide.slick-loading img
 {
@@ -1096,7 +1151,7 @@ td {
   table-layout: fixed;
   position: relative;
   border: 3px solid #ed9c38;
-  color: #231f20;
+  color: #ed9c38;
   font-family: 'SFUIDisplay-Black', sans-serif;
   margin: 0 0 15px;
   cursor: pointer;
@@ -1104,6 +1159,7 @@ td {
   background: none;
   font-size: 15px;
   padding: 5px 35px 5px 10px;
+  /*background-color: #ed9c38;*/
 }
 .button:after {
   content: "";
@@ -1114,11 +1170,17 @@ td {
   transform: translateY(-50%);
   width: 14px;
   height: 14px;
-  background: transparent url(../images/icons/arrow-right.svg) no-repeat;
+  background: transparent url(../images/icons/arrow-right-yelow.svg) no-repeat;
 }
+
 .button:hover {
   text-decoration: none;
-  border-color: #231f20;
+  border-color: #ed9c38;
+  background-color: #ed9c38;
+  color: white;
+}
+.button:hover::after{
+  background: transparent url(../images/icons/arrow-right-white.svg) no-repeat;
 }
 @media screen and (min-width: 768px) {
   .button {
@@ -1460,6 +1522,9 @@ input[type=radio]:checked + label::after {
   .page-header {
     border-bottom-width: 4px;
   }
+
+
+
 }
 .header-meta {
   display: -ms-flexbox;
@@ -1516,7 +1581,7 @@ input[type=radio]:checked + label::after {
 .logotype img {
   display: block;
   width: 100%;
-  margin: 0 0 5px;
+  margin: 5px 0 5px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0, 0, 0);
@@ -1860,6 +1925,7 @@ input[type=radio]:checked + label::after {
   position: relative;
   z-index: 50;
   height: 100vh;
+  background-color: white;
 }
 .carousel > *:not(:nth-child(1)) {
   display: none;
@@ -1913,29 +1979,28 @@ input[type=radio]:checked + label::after {
   width: 100%;
   max-width: 1410px;
   margin: 0 auto;
-  padding: 15px 15px 90px;
+  padding: 15px 15px 0px;
 }
 @media screen and (min-width: 768px) {
   .carousel-container {
-    padding: 15px 85px 135px;
+    padding: 15px 85px 0px;
   }
 }
 .carousel-panel {
-  /*!*background: rgba(255, 255, 255, 0.6);*!*/
-  /*padding: 10px 15px;*/
   position: relative;
   z-index: 20;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 77vh;
-  /*margin-top: 4%;*/
+  /*flex-direction: column;*/
+  align-items: flex-start;
+  justify-content: unset;
+  height: 61vh;
+  width: 50%;
+  margin-left: 36px;
 }
 @media screen and (min-width: 768px) {
   .carousel-panel {
-    /*display: table;*/
+    display: table;
     table-layout: fixed;
   }
 }
@@ -2120,6 +2185,7 @@ input[type=radio]:checked + label::after {
 .heading {
   position: relative;
   padding: 0 0 13px 15px;
+  margin-bottom: 10%;
 }
 .heading:before {
   content: "";
@@ -2148,6 +2214,22 @@ input[type=radio]:checked + label::after {
 .heading strong {
   font-family: 'SFUIDisplay-Black', sans-serif;
   color: #231f20;
+}
+
+.descript {
+  margin-bottom: 15%;
+}
+.descript span {
+  color: black;
+  font-weight: 900;
+}
+.descript p {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: medium;
+  color: dimgray;
+  font-weight: 600;
+  margin: 0px;
 }
 @media screen and (min-width: 768px) {
   .heading {
@@ -2412,7 +2494,7 @@ input[type=radio]:checked + label::after {
 }
 @media screen and (min-width: 768px) {
   .card-price {
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom: 0;
   }
 }
@@ -2438,6 +2520,7 @@ input[type=radio]:checked + label::after {
   display: block;
   border: 3px solid #ed9c38;
   padding: 5px 35px 5px 10px;
+  color: black;
 }
 .card-btn span:hover {
   border-color: #231f20;
@@ -4203,18 +4286,30 @@ input:focus.error {
 .caption {
   font-size: 20px;
   text-transform: none;
-  font-weight: normal;
-  color: white!important;
+  font-weight: 900;
+  color: black!important;
   font-family: sans-serif!important;
 }
 @media screen and (min-width: 100px) and (max-width: 900px) {
   .caption {
     font-size: 14px!important;
   }
+  .carousel-panel {
+    width: 90%;
+  }
+  .divan:after {
+    display: none;
+  }
+  .divan:before{
+    display: none;
+  }
+
+  .heading_wrap{
+    padding: 0px;
+  }
 }
 
 
-}
 @media screen and (min-width: 320px) {
   .tab-content-id {
     /*max-height: 1250px;*/
@@ -4262,6 +4357,7 @@ input:focus.error {
         max-height: 100%!important;
     }
   }
+
 
 
 
@@ -4314,6 +4410,40 @@ input:focus.error {
     margin-bottom: 70px;
   }
 }
+    @media screen and (min-width: 2200px){
+      .divan:after{
+        display: flex;
+        flex-wrap: wrap;
+        content: "";
+        z-index: 1;
+        width: 25%;
+        position: absolute;
+        height: 55%;
+        background-image: url(../images/divan2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: inherit;
+        top: 23%;
+        left: 50%;
+    }
+      /*.divan:before {*/
+        /*display: flex;*/
+        /*flex-wrap: wrap;*/
+        /*content: "Диван «Energy»";*/
+        /*z-index: 2;*/
+        /*position: absolute;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*background-position: inherit;*/
+        /*top: 533px;*/
+        /*left: 1486px;*/
+        /*font-family: 'SFUIDisplay-Light', sans-serif;*/
+        /*color: #231f20;*/
+        /*text-transform: uppercase;*/
+        /*font-weight: 800;*/
+        /*font-size: large;*/
+      /*}*/
+  }
     @media screen and (min-width: 2560px) {
       .tab-content-id {
         /*max-height: 1450px;*/
@@ -4324,5 +4454,101 @@ input:focus.error {
             height: 300px;
         }
     }
+/*мобильная версия*/
+    @media screen and (min-width: 100px) and (max-width: 768px) {
+      .heading span {
+        font-size: 30px;
+      }
+      .carousel-container {
+        height: 100vh;
+    }
+      .carousel-panel {
+        height: 80vh;
+        margin: 0 auto;
+    }
+      .head_button {
+        margin: 0 auto;
+        margin-top: -30px;
+      }
+      .heading_wrap {
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .caption {
+        font-size: 19px!important;
+    }
+      .descript p{
+      font-size: small;
+    }
+      .divan_mobile {
+        display: block!important;
+        background-image:url(../images/divan2.png) ;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 28vh;
+        background-position: center;
+        block-size: ;
+        background-size: contain;
+        margin-top: -30px;
+      }
+      .heading {
+        margin-bottom: 5px;
+    }
+      .descript {
+        margin-bottom: 0;
+    }
+  }
+    @media screen and (min-width: 768px) and (max-width: 900px){
+      .heading span {
+        font-size: 30px;
+      }
+      .carousel-container {
+        height: 100vh;
+      }
+      .carousel-panel {
+        height: 80vh;
+        margin: 0 auto;
+      }
+      .head_button {
+        margin: 0 auto;
+        margin-top: -30px;
+      }
+      .heading_wrap {
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .caption {
+        font-size: 19px!important;
+      }
+      .descript p{
+        font-size: small;
+      }
+      .divan_mobile {
+        display: block!important;
+        background-image:url(../images/divan2.png) ;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        block-size: ;
+        background-size: contain;
+        margin-top: -30px;
+      }
+      .heading {
+        margin-bottom: 5px;
+      }
+      .descript {
+        margin-bottom: 0;
+      }
+    }
+
+    /*скрывает диван при развороте телефона*/
+    @media screen and (min-device-aspect-ratio: 16/9) {
+      /*.divan_mobile {*/
+        /*display: none!important;*/
+    }
+    }
+
+/*планшет */
 
 
