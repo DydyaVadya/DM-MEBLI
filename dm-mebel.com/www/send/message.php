@@ -9,7 +9,8 @@
 
 
     $dt = date("Y-m-d H:i:s");
-    $email = 'hseredad@gmail.com';
+     $email = 'hseredad@gmail.com';
+
 
     require 'src/Exception.php';
     require 'src/PHPMailer.php';
@@ -156,7 +157,9 @@
 
                 }
 
-                $msg = "Обсудить реализацию"."%0A"."Дата: $dt"."%0A"."файл: " .$saveFile[$file['tmp_name']]."%0A"."Телефон: ".$_POST['phone']."%0A"."";
+//                $msg = "Обсудить реализацию"."%0A"."Дата: $dt"."%0A"."файл: " .$saveFile[$file['tmp_name']]."%0A"."Телефон: ".$_POST['phone']."%0A"."";
+//                file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
+                $msg = "Обсудить реализацию"."%0A"."Дата: $dt"."%0A"."файл: " .str_replace('/www','',$saveFile[$file['tmp_name']])."%0A"."Телефон: ".$_POST['phone']."%0A"."";
                 file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=-1001218844444&text=$msg");
 
                 $mail->send();
