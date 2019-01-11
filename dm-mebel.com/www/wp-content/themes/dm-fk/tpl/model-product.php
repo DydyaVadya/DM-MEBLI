@@ -1,5 +1,4 @@
 <?php global $product; ?>
-
 <?php $gallery      = get_field('галерея',                  $product->ID); ?>
 <?php $availability = get_field('наличие',                  $product->ID); ?>
 <?php $dollar       = get_field('курс_доллара_',            6); ?>
@@ -25,7 +24,7 @@
                             <div class="gallery-container">
                                 <div class="gallery-for">
                                     <?php foreach($gallery as $photo): ?>
-                                        <div><img src="<?= $photo['sizes']['home-product-thumb'] ?>" class="zoom" data-zoom="<?= $photo['url'] ?>" width="531" height="266" alt="Picture"></div>
+                                        <div><a href="<?= $photo['url'] ?>" data-fancybox><img src="<?= $photo['sizes']['home-product-thumb'] ?>" class="zoom" data-zoom="<?= $photo['url'] ?>" width="531" height="266" alt="Picture"></a></div>
                                     <?php endforeach; ?>
                                 </div>
                                 <div class="zoom-container">&nbsp;</div>

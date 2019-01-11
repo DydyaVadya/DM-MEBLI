@@ -455,24 +455,24 @@ jQuery(document).ready(function (jQuery) {
     });
 
     // zoom
-    jQuery(function () {
-        if (jQuery('.zoom').length) {
-            var $zoom = jQuery('.zoom');
-
-            $zoom.each(function(i, el) {
-
-                var $zoomContainer = jQuery(el).parents('.gallery-container').find('.zoom-container')[0];
-                new Drift(el, {
-                    inlinePane: false,
-                    zoomFactor: 3,
-                    paneContainer: $zoomContainer,
-                    inlineOffsetY: -85,
-                    containInline: true
-                });
-            });
-
-        }
-    });
+    // jQuery(function () {
+    //     if (jQuery('.zoom').length) {
+    //         var $zoom = jQuery('.zoom');
+    //
+    //         $zoom.each(function(i, el) {
+    //
+    //             var $zoomContainer = jQuery(el).parents('.gallery-container').find('.zoom-container')[0];
+    //             new Drift(el, {
+    //                 inlinePane: false,
+    //                 zoomFactor: 3,
+    //                 paneContainer: $zoomContainer,
+    //                 inlineOffsetY: -85,
+    //                 containInline: true
+    //             });
+    //         });
+    //
+    //     }
+    // });
 
     jQuery(function () {
         var $form = jQuery('form');

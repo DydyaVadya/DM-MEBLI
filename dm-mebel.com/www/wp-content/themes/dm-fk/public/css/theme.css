@@ -4248,7 +4248,7 @@ input[type=radio]:checked + label::after {
   }
 }
 .zoom:hover {
-    cursor: url(../images/icons/cursor.png), auto;
+    cursor: pointer;
 }
 .zoom-container > * {
   z-index: 1000;
@@ -4314,8 +4314,9 @@ input:focus.error {
   .tab-content-id {
     /*max-height: 1250px;*/
     overflow: hidden;
-      max-height: 100%!important;
+    max-height: 100% !important;
   }
+}
   @media screen and (min-width: 360px) {
     .tab-content-id {
       /*max-height: 1300px;*/

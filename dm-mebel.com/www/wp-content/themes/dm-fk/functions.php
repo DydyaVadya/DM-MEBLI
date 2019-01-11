@@ -120,40 +120,40 @@ function my_myme_types($mime_types){
 
 add_filter('upload_mimes', 'my_myme_types', 1, 1);
 
-add_action('admin_menu', 'remove_admin_menu');
-function remove_admin_menu() {
-
-	# Удаляем раздел Настройки
-	// remove_menu_page('options-general.php');	
-
-	# Инструменты
-	remove_menu_page('tools.php');
-
-	#Пользователи
-	remove_menu_page('users.php'); 
-
-	# Плагины
-	remove_menu_page('plugins.php');
-
-	# Внешний вид
-	remove_menu_page('themes.php');
-
-	# Посты блога
-	# remove_menu_page('edit.php'); 
-
-	# Медиабиблиотека
-	# remove_menu_page('upload.php');
-
-	# Страницы
-	remove_menu_page('edit.php?post_type=acf-field-group'); 
-
-	# Группы полей
-	remove_menu_page('edit-comments.php');
-
-	# Ссылки 
-	remove_menu_page('link-manager.php');
-	
-}
+//add_action('admin_menu', 'remove_admin_menu');
+//function remove_admin_menu() {
+//
+//	# Удаляем раздел Настройки
+//	// remove_menu_page('options-general.php');
+//
+//	# Инструменты
+//	remove_menu_page('tools.php');
+//
+//	#Пользователи
+//	remove_menu_page('users.php');
+//
+//	# Плагины
+//	remove_menu_page('plugins.php');
+//
+//	# Внешний вид
+//	remove_menu_page('themes.php');
+//
+//	# Посты блога
+//	# remove_menu_page('edit.php');
+//
+//	# Медиабиблиотека
+//	# remove_menu_page('upload.php');
+//
+//	# Страницы
+//	remove_menu_page('edit.php?post_type=acf-field-group');
+//
+//	# Группы полей
+//	remove_menu_page('edit-comments.php');
+//
+//	# Ссылки
+//	remove_menu_page('link-manager.php');
+//
+//}
 
 function my_login_logo(){
 	echo '
